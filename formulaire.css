@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(to right,#71f6ed,#71cef6);
+    font-family:Times New Roman
+    min-height: 100vh;
+}
+h1{
+  text-align: center ;
+  text-transform: uppercase ;
+  margin-bottom: 25px;
+  color: purple;
+}
+form{
+  width: 420px;
+  margin: 15px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+}
+label{
+  font-weight: bold;
+  color: #444;
+}
+input,
+select,
+textarea{
+  width: 90%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom:18px ;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  transition: 0,3s;
+  font-size: 15px;
+  font-family: Times New Roman;
+  rgba(80,172,253,0.5)
+}
+input:focus,
+select:focus,
+textarea:focus{
+  border-color: skyblue;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  width: auto;
+  margin-right: 8px;
+}
+input[type="submit"],
+input[type="reset"]{
+  width: 48%;
+  color: white ;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0,3s;
+  border-radius: 30px;
+  padding: 12px;
+}
+input[type="submit"]{
+  background-color: #16e433;
+}
+input[type="reset"]{
+  background-color: #da1c1c;
+  float: right;
+}
+input[type="submit"]:hover{
+  background-color: #54f655;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px ;
+  rgba(0,0,0,0.3)
+}
+input[type="reset"]:hover{
+  background-color: #f11d1d;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px;
+  rgba(0,0,0,0.3)
+}
+textarea{
+  resize: none;
+}
